@@ -112,6 +112,7 @@ install_nodejs () {
 
 
 main () {
+    #This function lets the user know that he or she is currently installing either of the 3 applications
 	case $1 in 
 		curl)
 			echo "Installing curl ..."
@@ -124,10 +125,13 @@ main () {
 			install_nodejs;;
 		*)
 			if [ $# -eq 0 ]
+			# This checks if the user did not enter any character after calling the command ./installer.sh 
+			# and then prints out the usage details on how to use the CLI.
 			then
 				print_usage
 			else
 				echo "Error: This installer cannot install $1"
+			# If the user had entered neither of the 3 applications, this tells the user there is an Error and shows him or her how to use the CLI.
 				echo 
 				print_usage
 			fi
