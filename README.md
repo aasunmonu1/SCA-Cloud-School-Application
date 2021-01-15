@@ -1,1 +1,1 @@
-A simple CLI file installer
+A simple CLI file installer written with Bash
