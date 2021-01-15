@@ -1,1 +1,1 @@
-A Simple CLI file installer
+A simple CLI file installer
