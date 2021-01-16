@@ -15,18 +15,18 @@ Once done, the user is notified that the software has now been installed success
 
 You can use this CLI with the command;
 
-```bash installer.sh curl 
-```
+./installer.sh curl 
+
 (If you desire to install curl)
 
 Or
 
-```bash installer.sh wget
-```
+./installer.sh wget
+
 (If you desire to install wget)
 
 Or
 
-```bash installer.sh node
-```
+./installer.sh node
+
 (If you desire to install node)
