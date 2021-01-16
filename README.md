@@ -30,3 +30,11 @@ Or
 ./installer.sh node
 
 (If you desire to install node)
+
+If any user calls the command ./installer.sh without feeding it with any parameter, the user receives a prompt that tells him or her how to make use of the CLI. If the user enters any software this CLI was not built to install, he or she also gets the prompt that tells him or her the list of softwares the CLI can be used to install.
+
+
+
+CONTACT:
+
+If you have any questions or contributions, please, reach out to me via asunmonuaderolake@gmail.com
